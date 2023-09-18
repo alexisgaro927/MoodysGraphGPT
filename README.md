@@ -1,12 +1,30 @@
 # MoodysGraphGPT
 Fork of GraphGPT Project for Moodys
 
+# OpenAI Teams Bot app
+
+Follow [this guide](./bot/README.md) to get started.
+
+You could also try the [ChatGPT Teams Bot app](https://github.com/formulahendry/chatgpt-teams-bot) which uses latest `gpt-3.5-turbo` model. `Turbo` is the same model family that powers ChatGPT.
+
+![OpenAI](./bot/images/openai-chat.png)
+
+
 # GraphGPT (Microsoft Graph Co-Pilot v_0.75)
 
 ## What is it?
 GraphGPT CoiPilot is a helpful AI Assistant made to assist Microsoft CSA's deliver better proactive support "delivery experiences" to our SfMC customers by enhancing the CSA's ability to provide real-time responses to highly technical questions and proactive deliverables.
 
-## Demo Video
+## Demo 
+
+***coming soon
+
+## Use Cases
+
+***coming soon
+
+## Screenshots
+
 ***coming soon
 
 ## How it Works
@@ -53,9 +71,9 @@ To resolve response accuracy conerns with Generative AI tool consumption in Prod
 
 - Cost effective to scale organization wide
 
-- [SfMC On-Call Ready] (*add link to on call playbook)
+- [SfMC On-Call Ready] (i.e fast enough for major Incident management and repsonse)
 
-- Modular design to addapt this projet to other MSFT Products/SfMC Teams  ("SfMC Co-Piiot" , "CSA Co-Pilot)
+- Modular design to adapt this projet to other MSFT Products/SfMC Teams  ("SfMC Co-Piiot" , "CSA Co-Pilot)
 
 - Serve as a feasbility excerise in using AI tools to quickly "ramp up" on highly technical skills and ensure required skills for various Account custom solutions are maintained within SfMC timelines
 
@@ -84,45 +102,96 @@ To resolve response accuracy conerns with Generative AI tool consumption in Prod
 
 - Mission Critical reliability of  dependent service(s) 
 
--Maintains MSFT Generative AI compliance requirements (*add link)
+- Maintains MSFT Generative AI compliance requirements (*add link***coming soon)
 
-- Maintains Azure Subscription compliance requirements (*add link)
+- Maintains Azure Subscription compliance requirements (*add link***coming soon)
 
-- No MSFT user data or Internal MSFT data leave MSFT Corp Managed tenant compliance boundary (*add link)
+- No MSFT user data or Internal MSFT data leave MSFT Corp Managed tenant compliance boundary (*add link***coming soon)
 
 
+------------------------------------------------------
 
-## Under the Hood (explaining the files and directory structure of this GitHub Repo/Fork)
+## GraphGPT Setup Instrucctions (Minimal Path to Awesome)
 
-## Under the Hood (explaining the code)
+
+### GraphGPT Configuration
+
+
+### How to use this project (INTERNAL_ MSFT INTERNAL ONLY FORK)
+
+***coming soon
+
+### How to use this project (EXTERNAL)
+
+***coming soon
+
+## FAQs
+
+### More Use Cases
+ 
+ ***coming soon
+
+## AI DISCLAIMER 1
+
+***coming soon
+
+### Known Issues
+
+***coming soon
+
+
+------------------------------------------------------
+
+
+## Under the Hood (explaining the code, explaining the files and directory structure of this GitHub Repo/Fork)
 
 ### File and Directory Structure of the Repo
 
+***coming soon
+
 ### Teams Bot
 -until message extension is up, use command bot commands to bot settings and basic configuraiton without the tab
+***coming soon, too add team app sample project link(s) used
 
 ### Teams Tab(s)
 
+***coming soon
+***coming soon, too add team app sample project link(s) used
+
 ### Message Extension
+
+***coming soon, too add team app sample project link(s) used
+
 
 ### Adaptive Cards
 
+***coming soon
+***coming soon, too add team app sample project link(s) used
+
 ### Teams App Manifest
+
+***coming soon
+***coming soon, too add team app sample project link(s) used
 
 ### Azure Resources
 
+***coming soon
+***coming soon, too add team app sample project link(s) used
+
+------------------------------------------------------
+
 ## Completed
 - power automate flow initial test complete
-- Began with this github sample (https://github.com/leeford/teams-openai-bot) [Fork Link]
-- Also experimented with this sample (https://github.com/formulahendry/chatgpt-teams-bot) [Fork Link]
-- tested azure open ai js libary <---list out issues here>>
-- Began with Bot & SSO ()
-- Teams Bot using Azure OpenAPI API w/Axios Library
-- attempted to use the teams AI libarbary to get responses from the GraphGPT Azure OpenAI deployment
-- sucessfuly became certified as a Teams app developer
+- Began with this github sample (https://github.com/leeford/teams-openai-bot)
+- Also experimented with this sample (https://github.com/formulahendry/chatgpt-teams-bot) 
+- tested azure open ai js libary
+- Tested SSO bot for graph api integration
+- Teams Bot using Azure OpenAPI API w/Axios Library test complete
+- attempted to use the teams AI libary to get responses from the GraphGPT Azure OpenAI deployment, faced pre production bugs
+- Published v.75 of repo implementing first version of GraphGPT Teams Bot, using OpenAI API
 
 ## Current Status
-- Creating new Teams app beginning with a Bot using Azure AI Library told hold a conversation with the GraphGPT Azure OpenAI deployment, using a Teams app sample project
+- MVP for testing: Adding Azure Open AI via Axios OR OpenAI Library [Teams AI Library implementation coming soon]
 
 
 ## Feature/Release Roadmap
@@ -130,7 +199,7 @@ To resolve response accuracy conerns with Generative AI tool consumption in Prod
 1. MVP for testing (include name of and link of fork with feature being worked on)
   MVP requirements:
   *Deploy an Azure OpenAI deployment with all Graph and relevant docs/data added to the deployment
-  *Create Teams Bot project for local debug testing by testing group using Azure AI Library
+  *Create Teams Bot project for local debug testing by testing group using Axios or OpenAI Library
   *Display the response of  from user's OpenAI Deployment of a 16K model using and OpenAI API Key, from a users input into the bot
   *Display the response from the Graph GPT Azure OpenAI Deployment, from a users input into the bot
   *Displays both reponses in adapative cards simultaneiously
@@ -157,27 +226,13 @@ To resolve response accuracy conerns with Generative AI tool consumption in Prod
 -List out other features from the roadmap in OneNote
 -Cost management / Cost per response
 
-
-
-## Setup Instrucctions (Minimal Path to Awesome)
-
-
-### Configuration
-
-
-### How to use this project (INTERNAL)
-
-### How to use this project (EXTERNAL)
-
-### Known Issues
-- claude usuage limits
-- bard usuage limits
-- bard cookie disablement
--
-
-
-
 ------------------------------------------------------
+
+
+## Documentation
+- point to azure devops project
+- include instructions to increase Azure quota with new subscription
+
 ### Github Links
 [Title](https://github.com/leeford/teams-openai-bot)
 [Title](https://github.com/formulahendry/chatgpt-teams-bot)
@@ -194,18 +249,13 @@ To resolve response accuracy conerns with Generative AI tool consumption in Prod
 
 
 
+## Roll Credits
+-Thank you to Roman Maddox for always being there for support, every step fo the way
+-Thank you to Luis Villegas Perez for all of the collobration and inspiration for this project
 
-## AI DISCLAIMER 1
-- Human approval required
+------------------------------------------------------
 
-## Use Cases
-
-
-## Demo Video
-
-
-
-## How it works
+## How it works (Proposal)
 
 - Azure OpenAI + congtive & semantic search w/Azure Blob storage of MSFT internal docs	
 
@@ -241,17 +291,8 @@ https://openrouter.ai/docs#models
 - ??Solution for automated meeting notes and summaries??
 
 
-## Setup Instrucctions (Minimal Path to Awesome)
 
-
-### Configuration
-
-
-### How to use this project (INTERNAL)
-
-### How to use this project (EXTERNAL)
-
-## Testing procedure and Results
+## Testing procedure and Results (Proposal)
 
 - questions for internatl teams chnnels
 - questions via teams or emails from customers
@@ -259,22 +300,3 @@ https://openrouter.ai/docs#models
 - Githu and stackoverfflow issues boards
 - Activate Graph API questions registers
 - CSS Graph API cases
-
-## FAQs
-
-## Documentation
-- point to azure devops project
-- include instructions to increase Azure quota with new subscription
-
-## Known Issues
-- claude usuage limits
-- bard usuage limits
-- bard cookie disablement
--
-
-
-## Roll Credits
-
-
-## AI DISCLAIMER 2
-Human approval required
